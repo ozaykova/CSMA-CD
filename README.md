@@ -3,7 +3,7 @@ CSMA/CD protocol implementation
 Программа выводит врременные метки начала и завершения передачи кадра от каждого из узлов(считаем, что каждый узел желает передать 1 кадр) в мкс от начала старта скрипта.
 
 Сборка:
-cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug
+cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug \
 make csma_cd
 
 Запуск:
