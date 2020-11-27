@@ -25,6 +25,7 @@ void CSMA_CD::Process() {
             }
         }
         if (!CheckCollision()) {
+            std::cout << "Start transfer frame from node in " << TIME_NOW << "mks. ";
             TIME_NOW += TIME_TO_TRANSFER_ONE_FRAME;
             std::cout << "Successfully transferred frame from node " << Nodes[0].NodeNum << " in "
                       << TIME_NOW << " mks" << std::endl;
