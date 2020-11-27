@@ -7,6 +7,6 @@ cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug \
 make csma_cd
 
 Запуск:
-.csma_cd
+./csma_cd
 
 Прогграмма предложит ввести количество узлов и будет требовать от пользователя корректного ввода
